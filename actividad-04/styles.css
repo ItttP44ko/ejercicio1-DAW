@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f4f4f4;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+#site-header {
+    background-color: #ffffff;
+    border-bottom: 3px solid #c8102e;
+    padding: 12px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.header-date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.site-logo {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 42px;
+    font-weight: 900;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.site-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+
+.site-nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: color 0.2s;
+}
+
+.site-nav a:hover {
+    color: #c8102e;
+}
+
+#contenido {
+    max-width: 760px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.nota-header {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+}
+
+.seccion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #c8102e;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.titulo {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #111;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.bajada {
+    font-family: Georgia, serif;
+    font-size: 19px;
+    color: #555;
+    font-weight: 400;
+    line-height: 1.45;
+    margin-bottom: 22px;
+    font-style: italic;
+}
+
+.autor-info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #666;
+    border-top: 1px solid #eee;
+    padding-top: 14px;
+}
+
+.autor {
+    margin-bottom: 4px;
+    color: #444;
+}
+
+.autor-nombre {
+    color: #c8102e;
+    font-weight: bold;
+}
+
+.fecha {
+    font-size: 12px;
+    color: #888;
+}
+
+.imagen-principal {
+    margin: 24px 0;
+}
+
+.imagen-placeholder {
+    background: linear-gradient(135deg, #2c3e50, #4a6278);
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.imagen-principal figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #777;
+    margin-top: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.cuerpo p {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.cuerpo .parrafo-destacado {
+    font-size: 19px;
+    color: #1a1a1a;
+    font-weight: 500;
+    border-left: 4px solid #c8102e;
+    padding-left: 16px;
+}
+
+.cuerpo strong {
+    color: #000;
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 24px;
+    color: #111;
+    margin: 30px 0 16px 0;
+    font-weight: 700;
+    border-bottom: 2px solid #c8102e;
+    padding-bottom: 6px;
+    display: inline-block;
+}
+
+.cita {
+    background-color: #f9f3f4;
+    border-left: 5px solid #c8102e;
+    margin: 28px 0;
+    padding: 22px 28px;
+    font-family: "Playfair Display", Georgia, serif;
+}
+
+.cita p {
+    font-size: 22px;
+    font-style: italic;
+    color: #1a1a1a;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.cita cite {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #888;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.temas {
+    margin-top: 36px;
+    padding: 20px 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.temas h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #444;
+    margin-bottom: 12px;
+}
+
+.tags {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tags li a {
+    display: inline-block;
+    background-color: #eaeaea;
+    color: #333;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 16px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.tags li a:hover {
+    background-color: #c8102e;
+    color: #fff;
+}
+
+.nota-footer {
+    margin-top: 24px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #888;
+}
+
+#site-footer {
+    background-color: #1a1a1a;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 40px;
+}
