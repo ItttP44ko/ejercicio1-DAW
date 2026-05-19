@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#header h1{
+    display: flex;
+    justify-content: center;
+}
+
+#main form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+#main form label {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#main form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#main .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+#main .about h2 {
+    margin-bottom: 10px;
+}
+
+#main .about-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#main .about p {
+    max-width: 600px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#footer p {
+    text-align: center;
+    padding: 10px;
+}
